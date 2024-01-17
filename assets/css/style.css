@@ -27,6 +27,17 @@ header{
    justify-content: space-between;
      align-items:center ;
  }
+ .introduction .intro-left-side h1{
+margin-top: 20px;
+  font-size: 39px;
+  text-align: center;
+ }
+ 
+ .introduction .intro-right-side img {
+  width: 300px;
+  padding-left: 30px;
+  
+ }
  /* media sorgulari */
 
  @media(min-width:768px){
@@ -38,9 +49,11 @@ header{
     gap: 10px;
     padding: 112px 100px;
    }
-  
-  
+.introduction{
+  display: flex;
+}
  }
+
 
  @media(min-width:1080px) {
 
@@ -49,7 +62,27 @@ header{
   }
 header {
     padding: 30px;
+}
+.introduction .intro-right-side img {
+  width: 500px;
+}
+.introduction.intro-left-side h1 {
+  font-size: 72px;
+} 
+p{font-size: 22px;}
+}
 
-    
-}
-}
+/* introduction hissesi basladi */
+
+.introduction .intro-left-side h1
+ span{ color: #FF8A56;
+  font-size: 39px;
+    font-weight: 700;
+ }
+ .introduction .intro-left-side p{
+  font-size: 22px;
+  color: #666;
+  text-align: center;
+  padding: 10px;
+ }
+ .introduction
